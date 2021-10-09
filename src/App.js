@@ -1,11 +1,12 @@
 import "./App.css";
+import Login from "./pages/Login";
+import dotenv from "dotenv";
+dotenv.config();
 
 function App() {
   return (
     <div className="app">
-      <h1>Spotify Clone! 🚀</h1>
-      {/* Spotify Logo */}
-      {/* Login with Spotify icon */}
+      <Login />
     </div>
   );
 }
